@@ -1,0 +1,32 @@
+# Python файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+
+# Виртуальные окружения
+venv/
+env/
+.myenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+
+# Логи
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Images (будет монтироваться как volume)
+images/
